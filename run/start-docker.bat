@@ -1,0 +1,1 @@
+docker container run -v c:\run\sftp_rsa.pub:/home/foo/.ssh/keys/id_rsa.pub:ro -v c:\run\sftp-share:/home/foo/share -p 2222:22 -d atmoz/sftp foo::1001
